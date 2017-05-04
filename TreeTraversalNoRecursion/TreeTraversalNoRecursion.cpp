@@ -56,9 +56,6 @@ void inOrder(TreeNode* root)
 TreeNode* newTreeNode(int data)
 {
 	TreeNode* node = new TreeNode{ data, nullptr, nullptr };
-	//node->data = data;
-	//node->left = NULL;
-	//node->right = NULL;
 
 	return node;
 }

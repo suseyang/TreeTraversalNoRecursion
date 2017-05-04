@@ -8,5 +8,5 @@ struct TreeNode
 };
 
 TreeNode* newTreeNode(int data);
-void inOrder(TreeNode* root);
 void deleteTree(TreeNode* root);
+void inOrder(TreeNode* root);
